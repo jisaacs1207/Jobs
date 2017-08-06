@@ -1,0 +1,212 @@
+Planned Jobs and Skills Tracker
+
+PVE Classes
+Alchemist
+1 Transmute - Transmute blocks in to other blocks.
+1 Dowse - Find nearby ore and materials.
+2 Sustenance - Feeds yourself.
+2 Teleport - Teleports to predefined locations.
+3 Portal - Creates a portal (Lapis block to redstone block)
+3 Phase - Pass through thin walls.
+
+Artisan
+1 Refund - Refund part or all of crafting ingredients.
+1 Repair Armor - Attempt to instantly repair your armor.
+2 Repair Tools - Attempt to instantly repair all tools in your hotbar.
+2 Upgrade - Attempt to upgrade item.
+3 Disenchant - Removes enchantment and gains experience.
+3 Shift Enchant - Moves enchant from one item to another.
+
+Beastmaster
+1 Eggify - Trap a creature in an egg.
+2 Gills - Breath underwater.
+3 Lure - Creatures naturally follow you.
+2 Pacify - Creatures usually do not attack you.
+1 Forestwalk - Walk slightly faster on grass.
+3 Confusion Spell - Causes nearby monsters to attack each other.
+
+Laborer
+2 Bagspace - Double inventory.
+2 Remote Build - Place blocks remotely.
+3 Remote Break - Destroy target block.
+1 Homeblock - Creates a homeblock, protecting a chunk.
+3 Replace - Replace all nearby blocks of target type with blocks you are holding. Must be holding that many.
+1 Workshop - Opens a workshop.
+
+Merchant
+2 Shop - Open a shop.
+1 Summon Client - Summon another player if they agree.
+1 Teleport to Client - Teleport to another player if they agree.
+3 Connections - Send out some spies to open see through someone elses eyes for 5 seconds.
+3 Counterfeit - Creates a copy of an item that will disappear at a random time in the next 24 hours.
+2 Perceptive - Greatly reduces the chance of a thief stealing from you and increases the chance of the thief being hurt.
+
+Scribe
+2 Change Weather Scroll - Changes the weather to the polar opposite.
+2 Change Time Scroll - Changes the time to the polar opposite.
+3 Immunity Scroll - Makes player unable to be harmed for 2 seconds.
+3 Immortality Scroll - Player does not die when killed, but is sent home.
+1 Lottery Ticket - Random chance to earn or lose money.
+1 Tarot Card - Random effect.
+
+Thief
+1 Peek - Peek at someones inventory.
+2 Steal - Steal from a player.
+3 Pry - Attempt to pry equipment off of a player.
+1 Hide - Invisible when crouching in low light, if not having been in combat for 60 seconds.
+3 Pick - Attempts to pick a lock.
+2 Featherfall - Does not take fall damage.
+
+Tinkerer
+3 Disassemble - Attempt to destroy an item for materials.
+1 Pocketcrafter - Opens a crafting window.
+2 Remote Overload - Press button or switch a switch remotely.
+3 Pulser - Makes a block pulse healing or damage to all but players except for those holding another pulser in hotbar.
+2 Sentry - Creates aa sentry block that warns nearby players of nearby mobs or players.
+1 Lock - Locks a door or chest under a players name.
+
+
+
+PVP Classes
+
+Warrior
+1 Lunge - Lunges forward over a distance.
+2 Repel - Lunges backwards over a distance.
+1 Defend - Take much less damage if crouching.
+2 Blockshield - If holding an iron block on your hotbar, your armor is greatly improved.
+3 Rage - Deal more damage based on how injured you are.
+3 Stalwart - Immune to critical attacks.
+
+Mage
+
+1 Conjure Spell - Conjure materials out of the air.
+2 Elemental Immunity - Lose reagents instead of health
+2 Explosion - Creates explosion on yourself that damages you and those nearby, tossing nearby enemies away.
+1 Fire-Ice-Lightening - Hurl an element at the target.
+3 Switch - Switch places with the target.
+3 Blink - Disappear and reappear at target location.
+
+Ranger
+1 Traps - Create traps with blocks.
+1 Arrowcraft - Create specific arrows.
+2 Hunt - Attune your compass to another player.
+2 Stalk - Find distance to target.
+3 Arrow Volley - Shoots 5 generic arrows in target direction.
+3 Call Wolves - Calls 1-3 angry wolves when at low health.
+
+
+Rogue
+1 Poisons - Poisons you weapon.
+2 Disarm - Force oponent to drop weapon.
+1 Dirty Strikes - Causes a random bad effect on attack.
+2 Shadowstep - Move behind target.
+3 Enderdefense - Teleport to a random nearby location when damaged.
+3 Enderstrike - Teleport to a random nearby location after damaging an enemy.
+
+Cleric
+1 Heal- Slightly heal someone and yourself.
+1 Smite- Combust target
+3 Bless- Bless item
+2 Cripple- Slow down your target enemy for a short time.
+3 Holy Armor- Improves armor rating.
+2 Cleanse- Cleanse target or self of all bad effects.
+
+Psionic
+1 Push Spell - Pushes all enemies away from you.
+1 Pull - Pulls all players towards you.
+2 Toss - Throws a specific player in the air.
+2 Braindeath - Attempts to make a player forget all skills for 5 secons.
+3 Psychic Shout - Attempt to kill all mobs nearby, and slightly injure all players.
+3 Switch health - Automatically switch health with enemy when brought below 3 hearts.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wall Spell - Creates a temporary wall to block your enemies.
+Wither Skull Spell (v3.2) - Fires a wither skull projectile.
+
+
+Chain Spell - Bounces from target to target.
+
+
+
+
+
+Disguise Spell - Appear as a monster, animal, block, item, or another player.
+Drainlife Spell - Steal life from your enemy.
+EntombSpell - Traps the target enemy in glass.
+Fireball Spell - Throws a fireball.
+
+Geyser - Create a geyser of water that shoots your enemy into the air.
+
+
+
+Levitate Spell - Cause a target to levitate and fly where you point.
+Pain Spell - A generic direct damage spell.
+
+Silence Spell - Prevent a player from casting spells for a time.
+
+
+
+
+
+UndisguiseSpell - Removes a disguise created by the Disguise Spell.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tree Spell - Grow a tree at a target location.
+
+
+
+
+
+
+
+FlamewalkSpell - Burn enemies around you as you walk.
+
+
+
+
+LifewalkSpell - Flowers bloom in your footsteps.
+LightwalkSpell - Lights your path.
+
+
+
+
+
+
+Stonevision Spell - Allows you to see through stone.
+
+Waterwalk Spell - Walk across the water.
+Windwalk Spell - Fly through the air.
