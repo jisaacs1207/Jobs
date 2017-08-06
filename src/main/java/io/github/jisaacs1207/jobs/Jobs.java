@@ -28,7 +28,9 @@ public final class Jobs extends JavaPlugin implements Listener{
         getLogger().info("Jobs now loaded.");
 
         // register classes
-        registerEvents(this, new Tinkerer(), new Merchant(), new Alchemist(), new Commands(), new Thief());
+        registerEvents(this, new Commands(), new Alchemist(), new Artisan(), new Beastmaster(),
+                new Cleric(), new Laborer(), new Mage(), new Merchant(), new Psionic(), new Ranger(),
+                new Rogue(), new Scribe(), new Thief(), new Tinkerer(), new Warrior());
         this.getServer().getPluginManager().registerEvents(new OnLogin(), this);
         this.getServer().getPluginManager().registerEvents(new OnLogout(), this);
     }
