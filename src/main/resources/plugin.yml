@@ -1,0 +1,4 @@
+name: Jobs
+version: ${project.version}
+main: io.github.jisaacs1207.jobs.Jobs
+description: Learn skills through jobs. Earn jobs with experience.
