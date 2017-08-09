@@ -39,6 +39,13 @@ public final class Jobs extends JavaPlugin implements Listener{
                 20L, 20L);
         getServer().getScheduler().scheduleSyncRepeatingTask(this, new Schedules.saveStats(), 20L,
                 6000L);
+
+        // Commands
+        getCommand("skills").setExecutor(new Commands());
+        getCommand("skill").setExecutor(new Commands());
+        getCommand("skil").setExecutor(new Commands());
+        getCommand("ski").setExecutor(new Commands());
+        getCommand("sk").setExecutor(new Commands());
     }
 
     @Override

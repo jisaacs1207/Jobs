@@ -2,3 +2,8 @@ name: Jobs
 version: ${project.version}
 main: io.github.jisaacs1207.jobs.Jobs
 description: Learn skills through jobs. Earn jobs with experience.
+
+commands:
+   skills:
+      description: Learn skills the old fashioned way.
+      aliases: [skill,skil,ski,sk]
