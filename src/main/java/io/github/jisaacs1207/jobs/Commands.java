@@ -28,6 +28,7 @@ public class Commands implements CommandExecutor, Listener {
             } else if (args[0].equalsIgnoreCase("help") && args.length == 2) {
                 player.sendMessage("h2");
             }
+            return true;
         }
 
         if ((cmd.equalsIgnoreCase("teach")) || (cmd.equalsIgnoreCase("teac")) ||
@@ -44,7 +45,7 @@ public class Commands implements CommandExecutor, Listener {
             } else if (args[0].equalsIgnoreCase("help") && args.length == 2) {
                 player.sendMessage("h2");
             }
-
+            return true;
         }
 
         if ((cmd.equalsIgnoreCase("strip")) || (cmd.equalsIgnoreCase("stri")) ||
@@ -62,8 +63,9 @@ public class Commands implements CommandExecutor, Listener {
                 player.sendMessage("h2");
             }
 
+            return true;
         }
-            
+
         return false;
     }
 }
