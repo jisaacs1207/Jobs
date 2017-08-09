@@ -3,7 +3,7 @@ package io.github.jisaacs1207.jobs;
 public class PlayerConfig{
     String name;
     String nick;
-    int uuid;
+    String uuid;
     int staff;
     int viplevel;
     int vipteacher;

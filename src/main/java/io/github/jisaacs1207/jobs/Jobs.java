@@ -19,7 +19,7 @@ public final class Jobs extends JavaPlugin implements Listener{
         getServer().getPluginManager().registerEvents(this, this);
 
         // Populate pfile hashmap
-        for(Player player:plugin.getServer().getOnlinePlayers()) Methods.populateMapFromPFile(player.getName());
+        for (Player player : plugin.getServer().getOnlinePlayers()) Methods.populateMapFromPFile(player);
 
         // default config
         saveDefaultConfig();
