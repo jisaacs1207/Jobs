@@ -2,7 +2,7 @@ Planned Jobs and Skills Tracker
 
 PVE Classes
 Alchemist
-1 Transmute - Transmute blocks in to other blocks.
+1 Unstable Transmutation - Transmute all hotbar blocks in to other blocks. <shift right-click with gold block>
 1 Dowse - Find nearby ore and materials.
 2 Sustenance - Feeds yourself.
 2 Teleport - Teleports to predefined locations.
@@ -37,7 +37,7 @@ Merchant
 2 Shop - Open a shop.
 1 Summon Client - Summon another player if they agree.
 1 Teleport to Client - Teleport to another player if they agree.
-3 Connections - Send out some spies to open see through someone elses eyes for 5 seconds.
+3 Insure - Sells life insurance player loses no items on next death.
 3 Counterfeit - Creates a copy of an item that will disappear at a random time in the next 24 hours.
 2 Perceptive - Greatly reduces the chance of a thief stealing from you and increases the chance of the thief being hurt.
 
@@ -108,7 +108,7 @@ Cleric
 1 Smite- Combust target
 3 Bless- Bless item
 2 Cripple- Slow down your target enemy for a short time.
-3 Holy Armor- Improves armor rating.
+3 Wolf and Lamb - Switch health percentage with enemy.
 2 Cleanse- Cleanse target or self of all bad effects.
 
 Psionic
@@ -117,8 +117,16 @@ Psionic
 2 Toss - Throws a specific player in the air.
 2 Braindeath - Attempts to make a player forget all skills for 5 secons.
 3 Psychic Shout - Attempt to kill all mobs nearby, and slightly injure all players.
-3 Switch health - Automatically switch health with enemy when brought below 3 hearts.
+3 Telepathy - Spy on other player.
 
+Sapper
+
+1 Impervious- Immune to Explosions
+1 Unstable- Dying causes enormous explosion
+2 Amp TnT- Punching TnT amplifies explosion, destroying some nearby protected stone.
+2 Rifle- Using
+3 Supercharge TnT- Crouching on TnT creates an explosion sending you sailing in the air and deals large damage to others.
+3 Masochist- Fire heals you.
 
 
 

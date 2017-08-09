@@ -1,5 +1,6 @@
 package io.github.jisaacs1207.jobs;
 
+
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerLoginEvent;
@@ -24,3 +25,4 @@ public class OnLogin implements Listener {
         Methods.updateLastJoin(player);
     }
 }
+
