@@ -33,6 +33,12 @@ public final class Jobs extends JavaPlugin implements Listener{
                 new Rogue(), new Scribe(), new Thief(), new Tinkerer(), new Warrior());
         this.getServer().getPluginManager().registerEvents(new OnLogin(), this);
         this.getServer().getPluginManager().registerEvents(new OnLogout(), this);
+
+        // Schedules
+        getServer().getScheduler().scheduleSyncRepeatingTask(this, new Schedules.increasePlayTimeSecond(),
+                20L, 20L);
+        getServer().getScheduler().scheduleSyncRepeatingTask(this, new Schedules.saveStats(), 20L,
+                6000L);
     }
 
     @Override
