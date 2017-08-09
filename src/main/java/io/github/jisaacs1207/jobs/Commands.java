@@ -1,6 +1,5 @@
 package io.github.jisaacs1207.jobs;
 
-import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -12,15 +11,31 @@ public class Commands implements CommandExecutor, Listener {
     @Override
     public boolean onCommand(CommandSender sender, Command cmnd, String string, String[] args) {
         String cmd = cmnd.getName();
+        Player player = (Player) sender;
         if ((cmd.equalsIgnoreCase("skills")) || (cmd.equalsIgnoreCase("skill")) ||
                 (cmd.equalsIgnoreCase("skil")) || (cmd.equalsIgnoreCase("ski")) ||
                 (cmd.equalsIgnoreCase("sk"))) {
-            Player player = (Player) sender;
 
             // no args
             // Shows player skills.
             if (args.length == 0) {
-                player.sendMessage("Chickenpotpie");
+                player.sendMessage("Skills");
+            }
+
+            // help (<empty>,[all skills],[all classes],[all admin commands],[all commands],<commands>)
+            else if (args[0].equalsIgnoreCase("help") && args.length == 1) {
+                player.sendMessage("h1");
+            } else if (args[0].equalsIgnoreCase("help") && args.length == 2) {
+                player.sendMessage("h2");
+            }
+        }
+
+        if ((cmd.equalsIgnoreCase("teach")) || (cmd.equalsIgnoreCase("teac")) ||
+                (cmd.equalsIgnoreCase("tea")) || (cmd.equalsIgnoreCase("te"))) {
+            // no args
+            // Shows player skills.
+            if (args.length == 0) {
+                player.sendMessage("Teach");
             }
 
             // help (<empty>,[all skills],[all classes],[all admin commands],[all commands],<commands>)
@@ -30,20 +45,25 @@ public class Commands implements CommandExecutor, Listener {
                 player.sendMessage("h2");
             }
 
-            // info (<empty>,<playername>)
+        }
 
-            // teach (<empty>,<list>,<playername>,<playername> <skill block>,<playernaame> <skillblock> <confirm>)
+        if ((cmd.equalsIgnoreCase("strip")) || (cmd.equalsIgnoreCase("stri")) ||
+                (cmd.equalsIgnoreCase("str")) || (cmd.equalsIgnoreCase("st"))) {
+            // no args
+            // Shows player skills.
+            if (args.length == 0) {
+                player.sendMessage("Strip");
+            }
 
-            // strip (<empty>,<list>,<playername>,<playername> <skill block>,<playername> <skillblock> <confirm>))
-
-            // catchall
-
-            else {
-                player.sendMessage(ChatColor.GRAY + "[" + ChatColor.GOLD + "SB" + ChatColor.GRAY + "] " +
-                        ChatColor.WHITE + "Unknown command.");
+            // help (<empty>,[all skills],[all classes],[all admin commands],[all commands],<commands>)
+            else if (args[0].equalsIgnoreCase("help") && args.length == 1) {
+                player.sendMessage("h1");
+            } else if (args[0].equalsIgnoreCase("help") && args.length == 2) {
+                player.sendMessage("h2");
             }
 
         }
+            
         return false;
     }
 }

@@ -5,5 +5,14 @@ description: Learn skills through jobs. Earn jobs with experience.
 
 commands:
    skills:
-      description: Learn skills the old fashioned way.
+      description: View skills.
       aliases: [skill,skil,ski,sk]
+      usage: "Syntax error! Please check out '/skills help'."
+   teach:
+      description: Teach someone a skill group.
+      aliases: [teac,tea,te]
+      usage: "Syntax error! Please check out '/teach help'."
+   strip:
+      description: Strip someone of a skill group.
+      aliases: [stri,str,st]
+      usage: "Syntax error! Please check out '/strip help'."
